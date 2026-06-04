@@ -5,6 +5,47 @@ body {
   margin: 0;
   overflow: hidden;
   font-family: Roboto, sans-serif;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.header,
+.footer {
+  display: flex;
+  justify-content: space-between;
+}
+
+ul {
+  display: flex;
+  list-style: none;
+  padding: 10px;
+  margin: 5px;
+  gap: 16px;
+}
+
+a {
+  color: #686464;
+  text-decoration: none;
+}
+
+.content {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin: 20px;
+}
+
+button{
+  margin-top: 20px;
+  padding: 10px;
+}
+
+.footer {
+  display: flex;
+  align-items: flex-end;
+  background-color: rgb(221, 218, 218);
+  font-size: medium;
 }
 
 img {
